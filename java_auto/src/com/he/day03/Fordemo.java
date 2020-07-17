@@ -18,6 +18,22 @@ public class Fordemo {
 //          System.out.println(name);
 //      }
         
+        //当为3时逃过本次循环
+//        for (int i = 0; i <= 5; i++) {
+//            if (i==3) {
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+        
+        //当为3时终止循环
+//        for (int i = 0; i <= 5; i++) {
+//            if (i==3) {
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+        
         
         
     }

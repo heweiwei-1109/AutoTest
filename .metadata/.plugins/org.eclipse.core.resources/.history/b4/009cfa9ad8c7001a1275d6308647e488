@@ -1,0 +1,17 @@
+package com.he.day03;
+
+public class IfDemo {
+    public static void main(String[] args) {
+        int score = 100;
+        if (score>=60) {
+            System.out.println("及格");
+        }
+        else if (score>=80) {
+            System.out.println("优秀");
+        }
+        else {
+            System.err.println("不及格");
+        }
+    }
+
+}
