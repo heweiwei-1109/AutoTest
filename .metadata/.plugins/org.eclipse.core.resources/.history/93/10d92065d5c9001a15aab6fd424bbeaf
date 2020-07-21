@@ -1,9 +1,10 @@
 package com.he.day04;
 
+import java.util.jar.Attributes.Name;
 
 public class Mobile {
     //品牌
-    public String brand;  //String默认值null
+    private String brand;  //String默认值null
     //价格
     public int price;  //int默认值0
     //发短信 

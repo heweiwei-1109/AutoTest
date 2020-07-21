@@ -1,7 +1,0 @@
-package com.he.day03;
-
-public class Operator {
-	public static void main(String [] args){
-	    System.out.print(1);
-	}
-}
