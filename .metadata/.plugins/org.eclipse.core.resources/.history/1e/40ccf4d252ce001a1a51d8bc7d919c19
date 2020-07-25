@@ -1,8 +1,6 @@
 package com.he.day05;
 
-
 import java.time.chrono.MinguoChronology;
-
 
 /**手机类
  * @author hewei
@@ -49,14 +47,6 @@ public class Mobilephone{
         String name2 = "老王";
         mobilephone2.sendMessage(name2);
         System.out.println();
-        String [] name = {"aa","bb"};
-        mobilephone2.test(name);
-    }
-    
-    public void test(String [] names){
-        for(String name:names){
-            System.out.println(name);
-        }
     }
     
     

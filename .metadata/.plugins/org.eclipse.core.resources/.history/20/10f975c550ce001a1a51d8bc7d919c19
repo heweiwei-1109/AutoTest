@@ -1,8 +1,6 @@
 package com.he.day05;
 
-
 import java.time.chrono.MinguoChronology;
-
 
 /**手机类
  * @author hewei
@@ -32,31 +30,23 @@ public class Mobilephone{
     /**
      * 无参构造函数（默认构造函数）
      */
-    public Mobilephone(){
-        
-    }
-    public Mobilephone(String brand,String generation,int price){  //形参
-        this.brand = brand;
-        this.generation =generation;
-        this.price = price;
-    }
+//    public Mobilephone(){
+//        
+//    }
+//    public Mobilephone(String brand,String generation,int price){  //形参
+//        this.brand = brand;
+//        this.generation =generation;
+//        this.price = price;
+//    }
     public static void main(String[] args) {
-        //用华为p20，给大白同学发短信
-        Mobilephone mobilephone = new Mobilephone("华为","p20",8888);  //实参
-        mobilephone.sendMessage("大白");
-        
+//        //用华为p20，给大白同学发短信
+//        Mobilephone mobilephone = new Mobilephone("华为","p20",8888);  //实参
+//        mobilephone.sendMessage("大白");
+//        
         Mobilephone mobilephone2 = new Mobilephone();
         String name2 = "老王";
         mobilephone2.sendMessage(name2);
         System.out.println();
-        String [] name = {"aa","bb"};
-        mobilephone2.test(name);
-    }
-    
-    public void test(String [] names){
-        for(String name:names){
-            System.out.println(name);
-        }
     }
     
     

@@ -1,8 +1,10 @@
 package com.he.day05;
 
+import static org.junit.Assert.*;
 
 import java.time.chrono.MinguoChronology;
 
+import org.junit.Test;
 
 /**手机类
  * @author hewei
