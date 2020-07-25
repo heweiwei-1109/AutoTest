@@ -1,0 +1,18 @@
+package com.he.day03;
+
+public class Fordemo {
+    public static void main(String [] args) {
+//        for(int i=1; i<=5; i++){
+//            System.out.println(i);
+//        }
+        
+        
+        String [] name = {"aa","bb","cc"};
+        //高级遍历数组
+        for (int i = 0; i < name.length; i++) {
+            System.out.println(name[]);
+        }
+        
+    }
+
+}
