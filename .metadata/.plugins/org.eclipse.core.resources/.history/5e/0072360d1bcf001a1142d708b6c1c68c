@@ -1,0 +1,62 @@
+package com.he.day05;
+
+import java.time.chrono.MinguoChronology;
+
+/**手机类
+ * @author hewei
+ *
+ */
+public class Mobilephone{
+    /**
+     * 品牌
+     */
+    public String brand;
+    /**
+     * 产品类型（代数）
+     */
+    public String generation;
+    /**
+     * 价格
+     */
+    public int price;
+    
+    /**
+     * 发短信
+     */
+    public void sendMessage(String name){
+        System.out.println(name+"晚上有空吗？一起吃饭");
+        System.out.println("----此短信通过【"+this.brand+this.generation+"】发出");
+    }
+    /**
+     * 无参构造函数（默认构造函数）
+     */
+    public Mobilephone(){
+        
+    }
+    public Mobilephone(String brand,String generation,int price){  //形参
+        this.brand = brand;
+        this.generation =generation;
+        this.price = price;
+    }
+    public static void main(String[] args) {
+//        //用华为p20，给大白同学发短信
+//        Mobilephone mobilephone = new Mobilephone("华为","p20",8888);  //实参
+//        mobilephone.sendMessage("大白");
+//        
+        Mobilephone mobilephone2 = new Mobilephone();
+        String name2 = "老王";
+        mobilephone2.sendMessage(name2);
+        System.out.println();
+        String [] names = {"aa","dd"};
+        mobilephone2.test(names);
+        
+    }
+    
+    public void test(String [] names){
+        for (String name:names){
+            System.out.println(name);
+        }
+    }
+    
+    
+}
