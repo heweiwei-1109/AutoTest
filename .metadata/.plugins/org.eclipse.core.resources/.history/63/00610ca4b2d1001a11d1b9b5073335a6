@@ -1,4 +1,3 @@
-   
 package com.he.day05;
 
 import java.time.chrono.MinguoChronology;
@@ -66,7 +65,7 @@ public class Mobilephone{
        System.out.println(brand03);
        
        //return终止循环
-//       mobilephoneget.test();
+       mobilephoneget.test();
        int result = mobilephoneget.test();
        System.out.println(result);
        
@@ -128,5 +127,3 @@ public class Mobilephone{
     
     
 }
-  
-    
